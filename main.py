@@ -24,6 +24,9 @@ top_frame = Frame(root, width=utils.width_proportion(100), height=utils.height_p
 # this where the window is going to be
 top_frame.place(    x=0, y=0)
 
+game_title = Label(top_frame, text="MineSweeper", bg="black", fg="white", font=("", 20))
+game_title.place(x=utils.width_proportion(25), y=0)
+
 left_frame = Frame(root, width=utils.width_proportion(25), height=utils.height_proportion(75), bg="black")
 left_frame.place(x=0, y=utils.height_proportion(25))
 
